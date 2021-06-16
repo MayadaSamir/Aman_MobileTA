@@ -77,29 +77,24 @@ public class Khadmat_Kahrba_shamalQahera extends PageBase {
     @FindBy(xpath ="//android.widget.Button[contains(@resource-id,'confirm_btn') and @text='تأكيد']")
     public MobileElement Confirmation5 ;
 
-
     @FindBy (id = "message")
     public MobileElement Successfull_Message ;
 
     @FindBy(id ="confirm_btn")
     MobileElement Print ;
 
-    ////////////////////////////
-
     public  void  ClickOnKhadmatKahrba ()
     {
-
         ClickButton(khadmatKahrba);
     }
 
-    public void  ClickOnDaf3Kahrba() {
-
+    public void  ClickOnDaf3Kahrba()
+    {
         ClickButton(Daf3Fatora);
     }
 
     public  void  ClickOnShamalQahera ()
     {
-
         ClickButton(daf3ShamalQahera);
     }
 
@@ -117,12 +112,13 @@ public class Khadmat_Kahrba_shamalQahera extends PageBase {
         ClickButton(Confirmation2);
     }
 
-    public  void  ElectriciryFlow1  () {
-
+    public  void  ElectriciryFlow1  ()
+    {
         System.out.println(TitleScreen.getText());
         System.out.println(CustomerData.getText());
         ClickButton(Confirmation3);
     }
+
     public  void  Electricityflow2()
     {
         System.out.println(Amount.getText());
@@ -132,10 +128,10 @@ public class Khadmat_Kahrba_shamalQahera extends PageBase {
         System.out.println(CAFvalue.getText());
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation4);
-
     }
 
-    public  void  EnterPIN ( String PIN) {
+    public  void  EnterPIN (String PIN)
+    {
         SetTextElement(PINEntryScreen, PIN);
         ClickButton(Confirmation5);
     }
@@ -144,7 +140,6 @@ public class Khadmat_Kahrba_shamalQahera extends PageBase {
     {
         ClickButton(Print);
     }
-
 }
 
 

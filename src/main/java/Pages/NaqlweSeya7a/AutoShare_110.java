@@ -76,17 +76,14 @@ public class AutoShare_110 extends PageBase {
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
-    /////////////////////////////////////////////////////
 
     public void  ClickOnAutoShare()
     {
-
         ClickButton(autoshare);
     }
 
     public void  ClickOnslab()
     {
-
         ClickButton(slab110);
     }
 
@@ -122,7 +119,6 @@ public class AutoShare_110 extends PageBase {
         ClickButton(mobilebtn2);
     }
 
-
     public  void  EnterPIN ( String PIN) {
         SetTextElement(PINEntry, PIN);
         ClickButton(PinConfirmationBtn);
@@ -132,6 +128,5 @@ public class AutoShare_110 extends PageBase {
     {
         ClickButton(Print);
     }
-
 }
 

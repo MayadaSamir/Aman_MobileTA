@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 public class FatortWE extends PageBase {
     public FatortWE(AndroidDriver driver) { super(driver); }  //Constructor
 
-
     @FindBy(id = "popup_name")
     public MobileElement ScreenTitle;  //assert
 
@@ -98,6 +97,5 @@ public class FatortWE extends PageBase {
         System.out.println(Successful_Message.getText());
         ClickButton(Print);
     }
-
 }
 

@@ -92,13 +92,11 @@ public class Ma7fzt_raseedy_khedmt_eda3_naqdy extends PageBase {
 
     public void  ClickOnRasedy()
     {
-
         ClickButton(ma7fztorangeCash);
     }
 
     public  void  ClickOneda3Naqdy()
     {
-
         ClickButton(khedmtEda3);
     }
 
@@ -152,7 +150,5 @@ public class Ma7fzt_raseedy_khedmt_eda3_naqdy extends PageBase {
         System.out.println(Successful_Message.getText());
         ClickButton(Print);
     }
-
-
 }
 

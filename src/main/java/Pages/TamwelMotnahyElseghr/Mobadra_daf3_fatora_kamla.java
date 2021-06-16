@@ -130,7 +130,5 @@ public class Mobadra_daf3_fatora_kamla extends PageBase {
     {
         ClickButton(Print);
     }
-
-
 }
 

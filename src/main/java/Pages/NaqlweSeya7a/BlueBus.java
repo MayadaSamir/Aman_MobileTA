@@ -73,11 +73,9 @@ public class BlueBus extends PageBase {
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
-    /////////////////////////////////////////////////////
 
     public void  ClickOnGoBus()
     {
-
         ClickButton(goBus);
     }
 
@@ -95,8 +93,8 @@ public class BlueBus extends PageBase {
         ClickButton(raqmDaf3btn2);
     }
 
-    public  void  customerInfo  () {
-
+    public  void  customerInfo  ()
+    {
         System.out.println(goBustitle.getText());
         System.out.println(customer.getText());
         ClickButton(customerinfobtnconfirm);
@@ -122,5 +120,4 @@ public class BlueBus extends PageBase {
     {
         ClickButton(Print);
     }
-
 }

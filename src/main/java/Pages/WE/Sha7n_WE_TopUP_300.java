@@ -72,10 +72,8 @@ public class Sha7n_WE_TopUP_300 extends PageBase {
     @FindBy(id ="confirm_btn")
     MobileElement Print;
 
-
     public  void ClickOnWETopUPService ()
     {
-
         ClickButton(WETopUp);
     }
 
@@ -95,7 +93,6 @@ public class Sha7n_WE_TopUP_300 extends PageBase {
 
     public  void  WE_EnterSlab300 ()
     {
-
         ClickButton(Slab300);
     }
 
@@ -106,8 +103,8 @@ public class Sha7n_WE_TopUP_300 extends PageBase {
         ClickButton(Confirmation3);
     }
 
-    public void WEFlow (String PIN ) {
-
+    public void WEFlow (String PIN )
+    {
         System.out.println(WETopUpAmount.getText());
         System.out.println(WETopUpTotalAmount.getText());
         System.out.println(Amount300_0.getText());
@@ -121,9 +118,7 @@ public class Sha7n_WE_TopUP_300 extends PageBase {
 
     public  void  Print()
     {
-
         ClickButton(Print);
     }
-
-} //End Class
+}
 

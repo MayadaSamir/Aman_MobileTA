@@ -76,7 +76,6 @@ public class EgyptPortal extends PageBase {
         public  void ClickOnEgyptPortal()
         { ClickButton(egyPort); }
 
-
         public void  raqmElCode (String codeNo)
         {
             System.out.println(code.getText());

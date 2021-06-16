@@ -52,7 +52,6 @@ public class ta7wel_le_hesab_tager extends PageBase {
     @FindBy(xpath= "//android.widget.TextView[contains(@resource-id,'amount_label') and @text='القيمة']")
     public MobileElement Amount;
 
-
     @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_label') and @text='المبلغ الكلى']")
     public MobileElement TotalAmount ;
 
@@ -93,6 +92,7 @@ public class ta7wel_le_hesab_tager extends PageBase {
         SetTextElement(EnterNumberConfirmation , ConfirmationMobNumber);
         ClickButton(Confirmation2);
     }
+
     public void  amountEntry (String money)
     {
         System.out.println(screenAmountTitle.getText());

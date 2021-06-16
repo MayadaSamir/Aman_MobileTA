@@ -70,13 +70,11 @@ public class Khadmat_PetroTrade_TasgelQera2a extends PageBase {
 
     public  void ClickOnKhadmatPetroTrade ()
     {
-
         ClickButton(petroTrade);
     }
 
     public  void  ClickOnTasgelQera2a ()
     {
-
         ClickButton(tasgelQera2a);
     }
 
@@ -101,7 +99,6 @@ public class Khadmat_PetroTrade_TasgelQera2a extends PageBase {
         System.out.println(CAFAmount.getText());
         System.out.println(CAFvalue.getText());
         ClickButton(Confirmation2);
-
     }
 
     public  void  EnterPIN ( String PIN) {
@@ -113,5 +110,4 @@ public class Khadmat_PetroTrade_TasgelQera2a extends PageBase {
     {
         ClickButton(Print);
     }
-
 }

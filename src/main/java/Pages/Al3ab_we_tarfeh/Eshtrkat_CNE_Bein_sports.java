@@ -44,7 +44,6 @@ public class Eshtrkat_CNE_Bein_sports extends PageBase {
     @FindBy (id ="confirm_btn")
     MobileElement Confirmation3;
 
-
     @FindBy(xpath= "//android.widget.TextView[contains(@resource-id,'amount_label') and @text='القيمة']")
     public MobileElement Amount;
 
@@ -54,13 +53,13 @@ public class Eshtrkat_CNE_Bein_sports extends PageBase {
     @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_label') and @text='المبلغ الكلى']")
     public MobileElement TotalAmount ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'amount_value') and @text='EGP 108.5']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'amount_value')]")
     public MobileElement AmountVALUE ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'fees_value') and @text='EGP 0.00']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'fees_value')]")
     public MobileElement CAFvalue ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_value') and @text='EGP 108.5']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_value')]")
     public MobileElement totalValue ;
 
     @FindBy (id ="confirm_btn")
@@ -73,7 +72,7 @@ public class Eshtrkat_CNE_Bein_sports extends PageBase {
     public MobileElement Confirmation5 ;
 
     @FindBy (id = "message")
-    public MobileElement Successfull_Message ;
+    public MobileElement Successful_Message ;
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
@@ -107,7 +106,6 @@ public class Eshtrkat_CNE_Bein_sports extends PageBase {
         ClickButton(Confirmation3);
     }
 
-
     public  void  flow()
     {
         System.out.println(Amount.getText());
@@ -127,5 +125,18 @@ public class Eshtrkat_CNE_Bein_sports extends PageBase {
     public void  print ()
     {
         ClickButton(Print);
+    }
+
+    @FindBy ( id = "cancel_btn")
+    public  MobileElement CancelButton;
+
+    @FindBy ( id = "back_ib")
+    public  MobileElement BackButton;
+
+    public  void  BackToMainMenu ()
+    {
+        ClickButton(CancelButton);
+        ClickButton(BackButton);
+        ClickButton(BackButton);
     }
 }

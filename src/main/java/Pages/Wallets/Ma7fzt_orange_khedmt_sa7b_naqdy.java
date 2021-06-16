@@ -86,13 +86,11 @@ public class Ma7fzt_orange_khedmt_sa7b_naqdy extends PageBase {
 
     public void  ClickOnma7fztOrangeCash()
     {
-
         ClickButton(ma7fztorangeCash);
     }
 
     public  void  ClickOnSa7b()
     {
-
         ClickButton(khedmtsa7b);
     }
 

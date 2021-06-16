@@ -43,13 +43,13 @@ public class Coniano extends PageBase {
     @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_label') and @text='المبلغ الكلى']")
     public MobileElement TotalAmount ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'amount_value') and @text='EGP 500.0']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'amount_value')]")
     public MobileElement AmountVALUE ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'fees_value') and @text='EGP 0.00']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'fees_value')]")
     public MobileElement CAFvalue ;
 
-    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_value') and @text='EGP 500.0']")
+    @FindBy (xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_value')]")
     public MobileElement totalValue ;
 
     @FindBy (id ="confirm_btn")
@@ -62,7 +62,7 @@ public class Coniano extends PageBase {
     public MobileElement Confirmation4 ;
 
     @FindBy (id = "message")
-    public MobileElement Successfull_Message ;
+    public MobileElement Successful_Message ;
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
@@ -72,7 +72,6 @@ public class Coniano extends PageBase {
 
     public  void ClickOnConianoInside()
     { ClickButton(conianoo); }
-
 
     public void  raqmElMob (String mobNumber)
     {
@@ -87,7 +86,6 @@ public class Coniano extends PageBase {
         SetTextElement(EnterNumberConfirmation , ConfirmationMobNumber);
         ClickButton(Confirmation2);
     }
-
 
     public  void  flow()
     {
@@ -108,6 +106,19 @@ public class Coniano extends PageBase {
     public void  print ()
     {
         ClickButton(Print);
+    }
+
+    @FindBy ( id = "cancel_btn")
+    public  MobileElement CancelButton;
+
+    @FindBy ( id = "back_ib")
+    public  MobileElement BackButton;
+
+    public  void  BackToMainMenu ()
+    {
+        ClickButton(CancelButton);
+        ClickButton(BackButton);
+        ClickButton(BackButton);
     }
 }
 

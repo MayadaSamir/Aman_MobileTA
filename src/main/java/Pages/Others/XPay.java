@@ -75,7 +75,6 @@ public class XPay extends PageBase {
     public  void ClickOnXPAY()
     { ClickButton(xpay); }
 
-
     public void  raqmElcode (String mobNumber)
     {
         System.out.println(codeTitle.getText());

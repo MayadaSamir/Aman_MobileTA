@@ -123,7 +123,5 @@ public class Kashat_daf3_aqsat extends PageBase {
     {
         ClickButton(Print);
     }
-
-
 }
 

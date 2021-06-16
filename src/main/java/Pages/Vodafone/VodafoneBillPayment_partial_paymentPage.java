@@ -11,7 +11,6 @@ public class VodafoneBillPayment_partial_paymentPage extends PageBase {
         super(driver);
     }
 
-
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'sub_service_name_tv') and @text='فواتير محمول']")
     MobileElement VfBillpaymentService;
 
@@ -49,13 +48,11 @@ public class VodafoneBillPayment_partial_paymentPage extends PageBase {
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'amount_value') and @text='EGP 2.0']")
     public MobileElement AmountValueE;
 
-
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'fees_value') and @text='EGP 2.00']")
     public MobileElement CAFValue;
 
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'total_amount_value') and @text='EGP 4.0']")
     public MobileElement totalamountValue;
-
 
     @FindBy(id = "user_input_edit")
     MobileElement PINEntryScreen;
@@ -65,7 +62,6 @@ public class VodafoneBillPayment_partial_paymentPage extends PageBase {
 
     @FindBy(id = "confirm_btn")
     MobileElement Print;
-
 
     public void Flow_Screen1(String RefNumber) {
         SetTextElement(EnterMobileNumberVF, RefNumber);
@@ -110,11 +106,7 @@ public class VodafoneBillPayment_partial_paymentPage extends PageBase {
     @FindBy(id = "back_ib")
     public MobileElement Back;
 
-
     public void lastflow() {
         ClickButton(CancleButton);
-        ClickButton(Back);
-        ClickButton(Back);
     }
-
 }

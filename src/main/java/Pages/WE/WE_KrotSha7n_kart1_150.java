@@ -53,18 +53,16 @@ public class WE_KrotSha7n_kart1_150 extends PageBase {
 
     public  void ClickOnWEVouchersService ()
     {
-
         ClickButton(WeVoucherService);
     }
 
     public  void  ClickOnWE_kart1 ()
     {
-
         ClickButton(WeVoucherKart1);
     }
 
-    public void  WEVoucher_slab_150() {
-
+    public void  WEVoucher_slab_150()
+    {
         ClickButton(WeVoucher_150);
     }
 
@@ -81,9 +79,7 @@ public class WE_KrotSha7n_kart1_150 extends PageBase {
 
     public  void  Print()
     {
-
         ClickButton(Print);
     }
-
-}  // End Class
+}
 

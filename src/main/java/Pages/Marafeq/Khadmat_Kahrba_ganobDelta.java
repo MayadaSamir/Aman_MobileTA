@@ -85,29 +85,23 @@ public class Khadmat_Kahrba_ganobDelta extends PageBase {
     @FindBy(id ="confirm_btn")
     MobileElement Print ;
 
-
-    ////////////////////////////
-
     public  void ClickOnMarafeq3amaService ()
     {
-
         ClickButton(Marafeq3amaService);
     }
 
     public  void  ClickOnKhadmatKahrba ()
     {
-
         ClickButton(khadmatKahrba);
     }
 
-    public void  ClickOnDaf3Kahrba() {
-
+    public void  ClickOnDaf3Kahrba()
+    {
         ClickButton(Daf3Fatora);
     }
 
     public  void  ClickOnGanobDelta ()
     {
-
         ClickButton(daf3GanobDelta);
     }
 
@@ -125,8 +119,8 @@ public class Khadmat_Kahrba_ganobDelta extends PageBase {
         ClickButton(Confirmation2);
     }
 
-    public  void  ElectriciryFlow1  () {
-
+    public  void  ElectriciryFlow1  ()
+    {
         System.out.println(TitleScreen.getText());
         System.out.println(CustomerData.getText());
         ClickButton(Confirmation3);
@@ -140,7 +134,6 @@ public class Khadmat_Kahrba_ganobDelta extends PageBase {
         System.out.println(CAFvalue.getText());
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation4);
-
     }
 
     public  void  EnterPIN ( String PIN) {

@@ -44,7 +44,6 @@ public class Ma7fzt_orange_khedmt_eda3_naqdy extends PageBase {
     @FindBy(id ="confirm_btn")
     public MobileElement amountbtn;    // amount Confirmation Screen تأكيد 1
 
-
     @FindBy(xpath= "//android.widget.TextView[contains(@resource-id,'amount_label') and @text='القيمة']")
     public MobileElement Amount;
 
@@ -93,22 +92,13 @@ public class Ma7fzt_orange_khedmt_eda3_naqdy extends PageBase {
     @FindBy(id ="confirm_btn")
     MobileElement Print;
 
-    /////////////////////////////////////////////////////
-
-   /* public  void  ClickOnGam3at7okmya ()
-    {
-        ClickButton(gam3at7okmya);
-    }*/
-
     public void  ClickOnma7fztOrangeCash()
     {
-
         ClickButton(ma7fztorangeCash);
     }
 
     public  void  ClickOneda3Naqdy()
     {
-
         ClickButton(khedmtEda3);
     }
 

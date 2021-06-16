@@ -82,13 +82,11 @@ public class Khadmat_PetroTrade_Daf3FatoraKamla extends PageBase {
 
     public  void ClickOnPetroTrade ()
     {
-
         ClickButton(khadmatPetroTrade);
     }
 
     public  void  ClickOnKhadmatKahrba ()
     {
-
         ClickButton(Daf3Fatora);
     }
 
@@ -115,10 +113,8 @@ public class Khadmat_PetroTrade_Daf3FatoraKamla extends PageBase {
 
     public  void  ClickOnDaf3Egmaly ()
     {
-
         ClickButton(daf3Egamly);
     }
-
 
     public  void  flow()
     {
@@ -129,7 +125,6 @@ public class Khadmat_PetroTrade_Daf3FatoraKamla extends PageBase {
         System.out.println(CAFvalue.getText());
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation4);
-
     }
 
     public  void  EnterPIN ( String PIN) {

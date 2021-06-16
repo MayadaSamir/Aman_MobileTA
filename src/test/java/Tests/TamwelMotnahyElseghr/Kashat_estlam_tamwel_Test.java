@@ -14,8 +14,11 @@ public class Kashat_estlam_tamwel_Test extends TestBase {
     //check for printer
 
     @Test
-    public void Test() {
-        estlamObj = new Kashat_estlam_tamwel(driver);
+    public void Test() throws Exception
+    {
+        try
+		{
+			estlamObj = new Kashat_estlam_tamwel(driver);
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"تمويل متناهى الصغر\").instance(0))").click();
         estlamObj.ClickOnKashat();
         estlamObj.ClickOnDaf3();
@@ -31,6 +34,12 @@ public class Kashat_estlam_tamwel_Test extends TestBase {
         daf3Obj.flow();
         daf3Obj.EnterPIN("0000");
         daf3Obj.print();
+		}
+		catch(Exception e)
+        {
+            System.out.println(e);
+            Assert.fail();
+        }
     } */
 }
 

@@ -30,7 +30,6 @@ public class OtobisEl3asema extends PageBase {
     @FindBy (id ="confirm_btn")
     MobileElement raqmDaf3btn2;    // code Confirmation Screen تأكيد 2
 
-
     @FindBy(xpath= "//android.widget.TextView[contains(@resource-id,'amount_label') and @text='القيمة']")
     public MobileElement Amount;
 
@@ -66,11 +65,9 @@ public class OtobisEl3asema extends PageBase {
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
-    /////////////////////////////////////////////////////
 
     public void  ClickOnOtobisi()
     {
-
         ClickButton(otobis);
     }
 
@@ -87,7 +84,6 @@ public class OtobisEl3asema extends PageBase {
         SetTextElement(getraqmDaf3Confirmation,  raqmConfirmation);
         ClickButton(raqmDaf3btn2);
     }
-
 
     public  void  customerInfo()
     {

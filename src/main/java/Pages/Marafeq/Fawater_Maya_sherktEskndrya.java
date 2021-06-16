@@ -82,19 +82,16 @@ public class Fawater_Maya_sherktEskndrya extends PageBase {
 
     public  void ClickOnFawaterMaya()
     {
-
         ClickButton(fawaterMaya);
     }
 
     public  void  ClickOnMaytEskndrya()
     {
-
         ClickButton(maytAlex);
     }
 
     public  void  ClickOnSherktMaytEskndrya()
     {
-
         ClickButton(sherktMayaAlex);
     }
 
@@ -128,7 +125,6 @@ public class Fawater_Maya_sherktEskndrya extends PageBase {
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation4);
     }
-
 
     public  void  EnterPIN ( String PIN) {
         SetTextElement(PINEntryScreen, PIN);

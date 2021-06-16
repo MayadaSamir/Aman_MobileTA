@@ -39,7 +39,6 @@ public class Ma3ak_ll_khadmat_el_tebya extends PageBase {
     @FindBy (id ="confirm_btn")
     MobileElement Confirmation3;
 
-
     @FindBy(xpath= "//android.widget.TextView[contains(@resource-id,'amount_label') and @text='القيمة']")
     public MobileElement Amount;
 

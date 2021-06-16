@@ -41,13 +41,11 @@ public class Ma7fzt_orange_khedmt_est3lam extends PageBase {
 
     public void  ClickOnma7fztOrangeCash()
     {
-
         ClickButton(ma7fztorangeCash);
     }
 
     public  void  ClickOneest3lam()
     {
-
         ClickButton(khedmtEst3lam);
     }
 

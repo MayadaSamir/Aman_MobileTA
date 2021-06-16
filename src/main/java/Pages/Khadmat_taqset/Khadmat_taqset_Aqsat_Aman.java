@@ -33,6 +33,5 @@ public class Khadmat_taqset_Aqsat_Aman extends PageBase {
     MobileElement mobilebtn2;    // code Confirmation Screen تأكيد 2
 
     // missing script
-
 }
 

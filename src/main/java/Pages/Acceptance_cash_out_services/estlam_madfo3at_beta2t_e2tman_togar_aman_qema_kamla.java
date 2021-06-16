@@ -44,7 +44,5 @@ public class estlam_madfo3at_beta2t_e2tman_togar_aman_qema_kamla extends PageBas
 
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'service_name') and @text='سحب القيمة كاملة']")
     public MobileElement fatoraKamla;
-
-
 }
 

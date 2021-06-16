@@ -9,7 +9,6 @@ public class Khadmat_PetroTrade_Daf3FatoraGoz2y extends PageBase {
 
     public Khadmat_PetroTrade_Daf3FatoraGoz2y(AndroidDriver driver) { super(driver); }  //Constructor
 
-
     @FindBy(xpath = "//android.widget.TextView[contains(@resource-id,'service_name') and @text='خدمات بترو تريد']")   //choose khadmat kahrba screen
     public MobileElement khadmatPetroTrade;
 
@@ -93,13 +92,11 @@ public class Khadmat_PetroTrade_Daf3FatoraGoz2y extends PageBase {
 
     public  void ClickOnPetroTrade ()
     {
-
         ClickButton(khadmatPetroTrade);
     }
 
     public  void  ClickOnKhadmatKahrba ()
     {
-
         ClickButton(Daf3Fatora);
     }
 
@@ -117,8 +114,8 @@ public class Khadmat_PetroTrade_Daf3FatoraGoz2y extends PageBase {
         ClickButton(Confirmation2);
     }
 
-    public  void  CustomerData  () {
-
+    public  void  CustomerData  ()
+    {
         System.out.println(TitleScreen.getText());
         System.out.println(CustomerData.getText());
         ClickButton(Confirmation3);
@@ -126,7 +123,6 @@ public class Khadmat_PetroTrade_Daf3FatoraGoz2y extends PageBase {
 
     public  void  ClickOnDaf3Goz2 ()
     {
-
         ClickButton(daf3Goz2);
     }
 
@@ -146,7 +142,6 @@ public class Khadmat_PetroTrade_Daf3FatoraGoz2y extends PageBase {
         System.out.println(CAFvalue.getText());
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation5);
-
     }
 
     public  void  EnterPIN ( String PIN) {

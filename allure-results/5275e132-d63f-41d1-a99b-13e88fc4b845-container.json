@@ -1,0 +1,1 @@
+{"uuid":"5275e132-d63f-41d1-a99b-13e88fc4b845","name":"Mobile.App","children":["b6b50926-49c1-4943-b647-50e4d51afa01"],"befores":[],"afters":[{"name":"AfterTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1623351297174,"stop":1623351297696}],"links":[],"start":1623351289960,"stop":1623351297697}

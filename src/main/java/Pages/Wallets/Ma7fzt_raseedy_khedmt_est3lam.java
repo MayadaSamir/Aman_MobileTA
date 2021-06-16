@@ -41,13 +41,11 @@ public class Ma7fzt_raseedy_khedmt_est3lam extends PageBase {
 
     public void  ClickOnma7fztRasedy()
     {
-
         ClickButton(ma7fztRasedy);
     }
 
     public  void  ClickOnEst3lam()
     {
-
         ClickButton(khedmtEst3lam);
     }
 

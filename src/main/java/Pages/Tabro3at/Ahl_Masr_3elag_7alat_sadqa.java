@@ -93,6 +93,7 @@ public class Ahl_Masr_3elag_7alat_sadqa extends PageBase {
         SetTextElement(EnterNumberConfirmation , ConfirmationMobNumber);
         ClickButton(Confirmation2);
     }
+
     public void  amountEntry (String money)
     {
         System.out.println(screenAmountTitle.getText());

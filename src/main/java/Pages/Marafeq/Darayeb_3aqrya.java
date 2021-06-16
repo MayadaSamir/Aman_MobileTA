@@ -83,19 +83,16 @@ public class Darayeb_3aqrya extends PageBase {
 
     public  void ClickOnDarayb ()
     {
-
         ClickButton(darayb3aqerya);
     }
 
     public  void  ClickOnFatora ()
     {
-
         ClickButton(Daf3Fatora);
     }
 
     public  void  ClickOnFatoraDarebya ()
     {
-
         ClickButton(fatora);
     }
 

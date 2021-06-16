@@ -33,6 +33,5 @@ public class Ma7fzt_raya extends PageBase {
 
     @FindBy (id ="confirm_btn")
     MobileElement raqmID2;    // code Confirmation Screen تأكيد 2
-
 }
 

@@ -43,7 +43,7 @@ public class One_card_kart_facebook_10 extends PageBase {
     public MobileElement Confirmation4 ;
 
     @FindBy (id = "message")
-    public MobileElement Successfull_Message ;
+    public MobileElement Successful_Message ;
 
     @FindBy(id ="confirm_btn")
     MobileElement Print;
@@ -75,5 +75,17 @@ public class One_card_kart_facebook_10 extends PageBase {
         ClickButton(Print);
     }
 
+    @FindBy ( id = "cancel_btn")
+    public  MobileElement CancelButton;
+
+    @FindBy ( id = "back_ib")
+    public  MobileElement BackButton;
+
+    public  void  BackToMainMenu ()
+    {
+        ClickButton(CancelButton);
+        ClickButton(BackButton);
+        ClickButton(BackButton);
+    }
 }
 

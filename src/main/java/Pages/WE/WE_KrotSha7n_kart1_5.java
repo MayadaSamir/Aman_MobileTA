@@ -51,21 +51,18 @@ public class WE_KrotSha7n_kart1_5 extends PageBase {
     @FindBy(id = "retry_btn" )
     public MobileElement ConnectWithPrinter ;
 
-
     public  void ClickOnWEVouchersService ()
     {
-
         ClickButton(WeVoucherService);
     }
 
     public  void  ClickOnWE_kart1 ()
     {
-
         ClickButton(WeVoucherKart1);
     }
 
-    public void  WEVoucher_slab_5() {
-
+    public void  WEVoucher_slab_5()
+    {
         ClickButton(WeVoucher_5);
     }
 
@@ -82,9 +79,7 @@ public class WE_KrotSha7n_kart1_5 extends PageBase {
 
     public  void  Print()
     {
-
         ClickButton(Print);
     }
-
-}  // End Class
+}
 

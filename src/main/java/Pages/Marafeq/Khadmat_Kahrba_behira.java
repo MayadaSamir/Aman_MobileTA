@@ -40,8 +40,6 @@ public class Khadmat_Kahrba_behira extends PageBase {
     @FindBy (id ="confirm_btn")
     MobileElement Confirmation2;    // Code Confirmation Screen تأكيد 2
 
-
-
     @FindBy(id ="fees_title")
     public MobileElement TitleScreen ;
 
@@ -81,35 +79,29 @@ public class Khadmat_Kahrba_behira extends PageBase {
     @FindBy(xpath ="//android.widget.Button[contains(@resource-id,'confirm_btn') and @text='تأكيد']")
     public MobileElement Confirmation5 ;
 
-
     @FindBy (id = "message")
     public MobileElement Successfull_Message ;
 
     @FindBy(id ="confirm_btn")
     MobileElement Print ;
 
-    ////////////////////////////
-
     public  void ClickOnMarafeq3amaService ()
     {
-
         ClickButton(Marafeq3amaService);
     }
 
     public  void  ClickOnKhadmatKahrba ()
     {
-
         ClickButton(khadmatKahrba);
     }
 
-    public void  ClickOnDaf3Kahrba() {
-
+    public void  ClickOnDaf3Kahrba()
+    {
         ClickButton(Daf3Fatora);
     }
 
     public  void  ClickOnBehira ()
     {
-
         ClickButton(daf3Behira);
     }
 
@@ -133,6 +125,7 @@ public class Khadmat_Kahrba_behira extends PageBase {
         System.out.println(CustomerData.getText());
         ClickButton(Confirmation3);
     }
+
     public  void  Electricityflow2()
     {
         System.out.println(Amount.getText());
@@ -142,7 +135,6 @@ public class Khadmat_Kahrba_behira extends PageBase {
         System.out.println(CAFvalue.getText());
         System.out.println(AmountVALUE.getText());
         ClickButton(Confirmation4);
-
     }
 
     public  void  EnterPIN ( String PIN) {
@@ -154,6 +146,5 @@ public class Khadmat_Kahrba_behira extends PageBase {
     {
         ClickButton(Print);
     }
-
 }
 
