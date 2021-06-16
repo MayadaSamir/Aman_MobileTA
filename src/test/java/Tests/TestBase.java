@@ -13,7 +13,8 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static AndroidDriver<MobileElement> driver;
 
-    @BeforeSuite
+    @Test
+    //@BeforeSuite
     @Severity(SeverityLevel.BLOCKER)
     @Description("Test Base")
     public void StartDriver() throws MalformedURLException {
