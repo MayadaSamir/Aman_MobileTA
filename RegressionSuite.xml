@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Suite">
+    <test name="Regression Test" preserve-order="false">
+        <classes>
+            <class name="Tests.Al3ab_we_tarfeh.Eshtrkat_CNE_Bein_sports_test" />
+            <class name="Tests.Al3ab_we_tarfeh.Eshtrkat_CNE_mafo3at_mobashra_test" />
+        </classes>
+    </test>
+</suite>

@@ -15,7 +15,7 @@ public class Eshtrkat_CNE_Bein_sports_test extends TestBase {
     @Test
     @Severity(SeverityLevel.CRITICAL)
     @Description("Eshtrkat CNE BEIN Sports Test")
-    public void Test() throws Exception
+    public void Eshtrkat_CNE_EIN_Sports_Test() throws Exception
     {
         try {
             beinObj = new Eshtrkat_CNE_Bein_sports(driver);
