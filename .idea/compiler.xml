@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AmanTestingTeam" />
         <module name="MobileApp" />
+        <module name="Aman_MobileTestAutomation" />
       </profile>
     </annotationProcessing>
   </component>

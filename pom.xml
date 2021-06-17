@@ -51,11 +51,11 @@
             <version>3.141.59</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/com.github.pwittchen/swipe -->
-        <dependency>
+<!--        <dependency>
             <groupId>com.github.pwittchen</groupId>
             <artifactId>swipe</artifactId>
             <version>0.2.0</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
